@@ -1,4 +1,4 @@
-------------------------------------------------------------------
+/* ------------------------------------------------------------------
 [Master Stylesheet]
 Project:	Live Event
 Version:	1.0.0
@@ -27,16 +27,35 @@ Version:	1.0.0
 21. Map css Start / .lv_map_wrapper
 22. Register Form css Start / .lv_register_wrapper
 23. Footer css Start / .lv_footer_wrapper
-24. Responsive / .lv_contact_form
-*/
+24. Responsive / .lv_contact_form */
+
+
 /*--------- Body Strat -------*/
 body {
-font-family: 'Lato', sans-serif;
+font-family: 'OCR';
 font-size: 16px;
 line-height: 23px;
 color: #797979;
 }
+
+.glitch {
+    font-size: 8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+  
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+      0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+
 /*---------- Custom Css Start -------*/
+@font-face { 
+    font-family: OCR; src: url(../fonts/OCRAEXT.TTF); 
+} 
+@font-face { 
+    font-family: ANU; src: url(../fonts/Elianto-Regular.ttf); 
+} 
 a {
 color: #797979;
 text-decoration: none;
@@ -49,7 +68,7 @@ a:focus {
 outline: none;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'ANU', sans-serif;
 line-height: 1.1;
 font-weight:700;
 color: #222222;
@@ -529,8 +548,8 @@ text-align:center;
 float: left;
 width: 100%;
 color: #ffffff;
-font-size: 50px;
-margin-bottom: 20px;
+font-size: 70px;
+margin-bottom: 0px;
 margin-top: 0px;
 }
 .lv_timer_info p{
@@ -597,7 +616,7 @@ margin-top: -30px;
 display:none
 }
 #clockdiv div > span{
-font-family: 'Oswald', sans-serif;
+font-family: 'OCR', sans-serif;
 padding: 0px;
 border-radius: 10px;
 border: 2px dashed #a1a1a1;
@@ -735,8 +754,32 @@ background-image:url(../images/content/about_bg_2.jpg);
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
-
 }
+.lv_about_wrapper_2{
+float:left;
+width:100%;
+background-image:url(../images/content/img/01.png);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+.lv_about_wrapper_3{
+float:left;
+width:100%;
+background-image:url(../images/content/img/02.png);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+.lv_about_wrapper_4{
+float:left;
+width:100%;
+background-image:url(../images/content/img/03.png);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
 .lv_about_wrapper .lv_btn a{
 margin-right:15px;
 }
@@ -756,7 +799,7 @@ width:100%;
 font-size:28px;
 color:#ffffff;
 margin-bottom: 20px;
-font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'OCR', sans-serif;
 }
 .lv_about_info2 span{
 float:left;
@@ -764,9 +807,14 @@ width:100%;
 font-size:20px;
 color:#ffffff;
 margin-bottom: 20px;
-font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'OCR', sans-serif;
 }
-.lv_about_info p{
+.lv_about_info_glitch p {
+float:left;
+width:100%;
+font-size: 45px;
+}
+.lv_about_info p {
 float:left;
 width:100%;
 font-size: 18px;
