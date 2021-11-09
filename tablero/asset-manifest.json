@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/tablero/static/css/main.ff2e3514.chunk.css",
-    "main.js": "/tablero/static/js/main.6923a5dd.chunk.js",
-    "main.js.map": "/tablero/static/js/main.6923a5dd.chunk.js.map",
-    "runtime-main.js": "/tablero/static/js/runtime-main.3900e38b.js",
-    "runtime-main.js.map": "/tablero/static/js/runtime-main.3900e38b.js.map",
-    "static/js/2.72603fe1.chunk.js": "/tablero/static/js/2.72603fe1.chunk.js",
-    "static/js/2.72603fe1.chunk.js.map": "/tablero/static/js/2.72603fe1.chunk.js.map",
-    "index.html": "/tablero/index.html",
-    "static/css/main.ff2e3514.chunk.css.map": "/tablero/static/css/main.ff2e3514.chunk.css.map",
-    "static/js/2.72603fe1.chunk.js.LICENSE.txt": "/tablero/static/js/2.72603fe1.chunk.js.LICENSE.txt"
+    "main.css": "/TESICAMPWEB21/tablero/static/css/main.ff2e3514.chunk.css",
+    "main.js": "/TESICAMPWEB21/tablero/static/js/main.3984758b.chunk.js",
+    "main.js.map": "/TESICAMPWEB21/tablero/static/js/main.3984758b.chunk.js.map",
+    "runtime-main.js": "/TESICAMPWEB21/tablero/static/js/runtime-main.0424941b.js",
+    "runtime-main.js.map": "/TESICAMPWEB21/tablero/static/js/runtime-main.0424941b.js.map",
+    "static/js/2.72603fe1.chunk.js": "/TESICAMPWEB21/tablero/static/js/2.72603fe1.chunk.js",
+    "static/js/2.72603fe1.chunk.js.map": "/TESICAMPWEB21/tablero/static/js/2.72603fe1.chunk.js.map",
+    "index.html": "/TESICAMPWEB21/tablero/index.html",
+    "static/css/main.ff2e3514.chunk.css.map": "/TESICAMPWEB21/tablero/static/css/main.ff2e3514.chunk.css.map",
+    "static/js/2.72603fe1.chunk.js.LICENSE.txt": "/TESICAMPWEB21/tablero/static/js/2.72603fe1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3900e38b.js",
+    "static/js/runtime-main.0424941b.js",
     "static/js/2.72603fe1.chunk.js",
     "static/css/main.ff2e3514.chunk.css",
-    "static/js/main.6923a5dd.chunk.js"
+    "static/js/main.3984758b.chunk.js"
   ]
 }
